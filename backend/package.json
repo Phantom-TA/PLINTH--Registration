@@ -4,6 +4,6 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^7.0.0" // or the latest version available
+    "mongoose": "^7.0.0"
   }
 }
