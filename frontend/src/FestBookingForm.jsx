@@ -17,11 +17,41 @@ const FestBookingForm = () => {
   const navigate = useNavigate();
 
   const availableEvents = [
-    { value: 'Coding', label: 'Coding' },
-    { value: 'Hackathon', label: 'Hackathon' },
-    { value: 'Gaming', label: 'Gaming' },
-    { value: 'Music', label: 'Music' },
-    { value: 'Dance', label: 'Dance' },
+    { value: 'Coding Cascade', label: 'Coding Cascade' },
+    { value: 'Robowars', label: 'Robowars' },
+    { value: 'Robocup', label: 'Robocup' },
+    { value: 'Roborace', label: 'Roborace' },
+    { value: 'LNM Tech Expo', label: 'LNM Tech Expo' },
+    { value: 'Robo Transporter', label: 'Robo Transporter' },
+    { value: 'Maze Solver', label: 'Maze Solver' },
+    { value: 'RC Plane', label: 'RC Plane' },
+    { value: 'Micro Mouse', label: 'Micro Mouse' },
+    { value: 'Drone Racing', label: 'Drone Racing' },
+    { value: 'MotoBoat', label: 'MotoBoat' },
+    { value: 'Pitch on the Rocks', label: 'Pitch on the Rocks' },
+    { value: 'Bizminds', label: 'Bizminds' },
+    { value: 'Sustain-a-thon', label: 'Sustain-a-thon' },
+    { value: 'Idea-thon', label: 'Idea-thon' },
+    { value: 'IUPC', label: 'IUPC' },
+    { value: 'CP Duels', label: 'CP Duels' },
+    { value: 'Alice, Bob , Go!', label: 'Alice, Bob , Go!' },
+    { value: 'Enigma', label: 'Enigma' },
+    { value: 'Coding Cascade', label: 'Coding Cascade' },
+    { value: 'LNMHACKS 7.0', label: 'LNMHACKS 7.0' },
+    { value: 'Casecraft', label: 'Casecraft' },
+    { value: 'Brahmaand', label: 'Brahmaand' },
+    { value: 'Starpix', label: 'Starpix' },
+    { value: 'Dhoomketu', label: 'Dhoomketu' },
+    { value: 'Astromemia', label: 'Astromemia' },
+    { value: 'Brandwagon', label: 'Brandwagon' },
+    { value: 'Cryptex', label: 'Cryptex' },
+    { value: 'IPL Auction', label: 'IPL Auction' },
+    { value: 'MUN', label: 'MUN' },
+    { value: 'Change my mind', label: 'Change my mind' },
+    { value: 'Codecraft', label: 'Codecraft' },
+    { value: 'Creatifrenzy', label: 'Creatifrenzy' },
+    { value: 'BeatLab', label: 'BeatLab' },
+    { value: 'Pixelated wars', label: 'Pixelated wars' },
   ];
 
   const referralDiscounts = {
@@ -31,7 +61,7 @@ const FestBookingForm = () => {
   };
 
   const handleMemberAdd = () => {
-    setMembers([...members, { name: '', college: '', contact: '', email: '', events: ['Coding'] }]);
+    setMembers([...members, { name: '', college: '', contact: '', email: '', events: ['Coding Cascade'] }]);
   };
 
   const handleMemberRemove = (index) => {
