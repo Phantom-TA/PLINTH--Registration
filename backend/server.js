@@ -34,6 +34,11 @@ const bookingSchema = new mongoose.Schema({
 
 const Booking = mongoose.model('Booking', bookingSchema);
 
+app.get('/' , (req,res) => {
+  res.status(200).json({message : "success"});
+})
+
+
 app.post('/api/booking', async (req, res) => {
   const { name, college, dayPass, members,referralCode, totalPrice } = req.body;
   try {
