@@ -9,7 +9,7 @@ const FestBookingForm = () => {
   const [name, setName] = useState('');
   const [college, setCollege] = useState('');
   const [dayPass, setDayPass] = useState('1st day');
-  const [members, setMembers] = useState([{ name: '', college: '', contact: '', email: '', events: ['Coding'] }]);
+  const [members, setMembers] = useState([{ name: '', college: '', contact: '', email: '', events: ['Coding Cascade'] }]);
   const [referralCode, setReferralCode] = useState('');
   const [discountMessage, setDiscountMessage] = useState('');
   const [totalPrice, setTotalPrice] = useState(0);
