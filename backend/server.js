@@ -73,7 +73,7 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const multer = require('multer');
 const cloudinary = require('cloudinary').v2;
-const { CloudinaryStorage } = require('multer-storage-cloudinary');
+const    CloudinaryStorage = require('multer-storage-cloudinary');
 
 dotenv.config();
 const app = express();
@@ -91,10 +91,10 @@ cloudinary.config({
 // Configure Multer with Cloudinary
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
-  params: {
+  
     folder: 'payment_proofs', // Cloudinary folder name
     allowed_formats: ['jpg', 'png', 'pdf'], // Allowed file formats
-  },
+  
 });
 const upload = multer({ storage });
 
