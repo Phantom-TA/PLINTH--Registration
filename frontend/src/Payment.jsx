@@ -24,26 +24,44 @@ const Payment = () => {
 
   const handleUpload = async (e) => {
     e.preventDefault();
+  
     if (!file || !bookingData || !bookingData._id) {
       alert('Please select a file and ensure booking data is complete.');
       return;
     }
-
-    const formData = new FormData();
-    formData.append('proof', file);
-    formData.append('bookingId', bookingData._id);
-
+  
     try {
-      await axios.post(`${process.env.REACT_APP_SERVER_URL}/api/upload-proof`, formData, {
-        headers: { 'Content-Type': 'multipart/form-data' },
-      });
-      
+      // Step 1: Upload to Cloudinary
+      const cloudinaryFormData = new FormData();
+      cloudinaryFormData.append('file', file);
+      cloudinaryFormData.append('upload_preset', 'plinth'); // Replace with your Cloudinary preset
+  
+      const cloudinaryResponse = await axios.post(
+        'https://api.cloudinary.com/v1_1/da5i96ooe/image/upload', // Replace with your Cloudinary cloud name
+        cloudinaryFormData
+      );
+  
+      const proofImageUrl = cloudinaryResponse.data.secure_url; // Get the uploaded image URL
+  
+      // Step 2: Send to Backend
+      const backendFormData = {
+        bookingId: bookingData._id,
+        proof: proofImageUrl, // Include the image URL in the payload
+      };
+  
+      await axios.post(
+        `${process.env.REACT_APP_SERVER_URL}/api/upload-proof`,
+        backendFormData
+      );
+  
+      // Step 3: Navigate to confirmation page
       navigate('/confirmation');
     } catch (error) {
       console.error('Error uploading proof:', error);
       alert('Failed to upload proof');
     }
   };
+  
 
   if (!bookingData) return <p>Loading...</p>;
 
