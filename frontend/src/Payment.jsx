@@ -149,6 +149,10 @@ const Payment = () => {
         <button type="submit" className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
           Upload Proof
         </button>
+
+        <p className="mt-2 text-sm text-gray-600 text-center">
+    Please wait for 2-3 seconds after clicking the upload proof button.
+  </p>
       </form>
     </div>
   );
