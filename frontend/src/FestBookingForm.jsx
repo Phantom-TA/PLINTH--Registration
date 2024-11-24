@@ -276,6 +276,10 @@ const FestBookingForm = () => {
       >
         Submit Booking
       </button>
+      
+<p className="mt-3 text-sm text-gray-500 text-center">
+  Please wait for 2-3 seconds after clicking "Submit Booking" for the process to complete.
+</p>
 
       <p className="mt-6 text-lg font-medium">Total Price: <span className="text-green-600">Rs {totalPrice}</span></p>
     </div>
