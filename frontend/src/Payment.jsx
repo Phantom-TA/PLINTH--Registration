@@ -132,10 +132,15 @@ const Payment = () => {
         </div>
       </div>
      
-      <div className="my-6 text-center">
+{/*       <div className="my-6 text-center">
         <h4 className="text-lg font-semibold text-gray-800 mb-2">Scan QR Code to Pay</h4>
         <img src=".\qr-code.png" alt="QR Code for Payment" className="mx-auto w-40 h-40" />
-      </div>
+      </div> */}
+<div className="my-6 text-center">
+  <h4 className="text-lg font-semibold text-gray-800 mb-2">Scan QR Code to Pay</h4>
+  <img src=".\qr-code.png" alt="QR Code for Payment" className="mx-auto w-40 h-40" />
+  <p className="text-gray-700 mt-2 font-medium">9125466700@ybl</p> {/* Added line below QR code */}
+</div>
 
       <form onSubmit={handleUpload}>
         <label htmlFor="proof" className="block text-gray-700 font-semibold mb-2">Upload Payment Proof</label>
