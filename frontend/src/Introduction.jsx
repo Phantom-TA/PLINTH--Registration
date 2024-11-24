@@ -89,7 +89,7 @@ const HomePage = () => {
             <div className="p-6 bg-gray-50 rounded-lg border hover:shadow-lg transition-shadow">
               <h3 className="text-2xl font-bold text-gray-700">Special Group Discounts</h3>
               <p className="mt-2 text-gray-600">
-                <b>Team of 5 or more?</b> Contact us at <b>9125466700</b> to unlock <b>exclusive group discounts and additional benefits.</b>
+                <b>Team of 10 or more?</b> Contact us at <b>9125466700</b> to unlock <b>exclusive group discounts and additional benefits.</b>
               </p>
             </div>
           </div>
