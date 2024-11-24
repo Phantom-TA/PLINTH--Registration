@@ -151,7 +151,7 @@ const Payment = () => {
         </button>
 
         <p className="mt-2 text-sm text-gray-600 text-center">
-    Please wait for 2-3 seconds after clicking the upload proof button.
+   Please wait for 2-3 seconds after clicking "Upload Proof" for the process to complete.
   </p>
       </form>
     </div>
