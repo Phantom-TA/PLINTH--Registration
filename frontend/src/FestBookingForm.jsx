@@ -37,7 +37,7 @@ const FestBookingForm = () => {
     { value: 'Alice, Bob , Go!', label: 'Alice, Bob , Go!' },
     { value: 'Enigma', label: 'Enigma' },
     { value: 'Coding Cascade', label: 'Coding Cascade' },
-    { value: 'LNMHACKS 7.0', label: 'LNMHACKS 7.0' },
+  
     { value: 'Casecraft', label: 'Casecraft' },
     { value: 'Brahmaand', label: 'Brahmaand' },
     { value: 'Starpix', label: 'Starpix' },
