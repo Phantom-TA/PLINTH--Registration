@@ -57,6 +57,7 @@ const FestBookingForm = () => {
     { value: 'FIFA' , label: 'FIFA' },
     { value: 'Tech-talks unplugged' , label: 'Tech-talks unplugged' },
     { value: 'DJ Battle' , label: 'DJ Battle' },
+    { value: 'Others [ Can choose on spot ] ' , label: 'Others [ Can choose on spot ]' },
     
   ];
 
