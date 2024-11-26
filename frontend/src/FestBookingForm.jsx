@@ -48,7 +48,7 @@ const FestBookingForm = () => {
     { value: 'IPL Auction', label: 'IPL Auction' },
     { value: 'MUN', label: 'MUN' },
     { value: 'Change my mind', label: 'Change my mind' },
-    { value: 'Codecraft', label: 'Codecraft' },
+    { value: 'GameSmith', label: 'GameSmith' },
     { value: 'Creatifrenzy', label: 'Creatifrenzy' },
     { value: 'BeatLab', label: 'BeatLab' },
     { value: 'Pixelated wars', label: 'Pixelated wars' },
