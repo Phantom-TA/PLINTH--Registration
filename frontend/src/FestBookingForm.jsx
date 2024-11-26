@@ -52,6 +52,12 @@ const FestBookingForm = () => {
     { value: 'Creatifrenzy', label: 'Creatifrenzy' },
     { value: 'BeatLab', label: 'BeatLab' },
     { value: 'Pixelated wars', label: 'Pixelated wars' },
+    { value: 'Valorant' , label: 'Valorant' },
+    { value: 'BGMI' , label: 'BGMI' },
+    { value: 'FIFA' , label: 'FIFA' },
+    { value: 'Tech-talks unplugged' , label: 'Tech-talks unplugged' },
+    { value: 'DJ Battle' , label: 'DJ Battle' },
+    
   ];
 
   const referralDiscounts = {
