@@ -46,7 +46,7 @@ const FestBookingForm = () => {
     { value: 'Brandwagon', label: 'Brandwagon' },
     { value: 'Cryptex', label: 'Cryptex' },
     { value: 'IPL Auction', label: 'IPL Auction' },
-    { value: 'MUN', label: 'MUN' },
+
     { value: 'Change my mind', label: 'Change my mind' },
     { value: 'Codecraft', label: 'Codecraft' },
     { value: 'Creatifrenzy', label: 'Creatifrenzy' },
@@ -57,7 +57,7 @@ const FestBookingForm = () => {
     { value: 'FIFA' , label: 'FIFA' },
     { value: 'Tech-talks unplugged' , label: 'Tech-talks unplugged' },
     { value: 'DJ Battle' , label: 'DJ Battle' },
-    { value: 'Others [ Can choose on spot ] ' , label: 'Others [ Can choose on spot ]' },
+    { value: 'Others [Fun events] ' , label: 'Others [ Fun events ]' },
     
   ];
 
