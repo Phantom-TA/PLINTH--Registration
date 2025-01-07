@@ -62,9 +62,8 @@ const FestBookingForm = () => {
   ];
 
   const referralDiscounts = {
-    'DISCOUNT50': 50,
-    'DISCOUNT100': 100,
     'PLINTH2024': 150,
+    'MUJ1212': 50 ,
   };
 
   const handleMemberAdd = () => {
