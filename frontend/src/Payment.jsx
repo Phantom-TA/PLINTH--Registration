@@ -157,7 +157,7 @@ const Payment = () => {
           Please wait for 2-3 seconds after clicking "Upload Proof" for the process to complete.
         </p>
       </form>
-      <p className="mt-4 text-sm text-gray-700 text-center">
+      <p className="mt-4 font-semibold text-sm text-gray-700 text-center">
         If you have any issues regarding taxes or discounts, please contact Ayush Singh Chauhan at 9125466700.
       </p>
     </div>
