@@ -287,7 +287,7 @@ const FestBookingForm = () => {
   Please wait for 2-3 seconds after clicking "Submit Booking" for the process to complete.
 </p>
 
-      <p className="mt-6 text-lg font-medium">Total Price: <span className="text-green-600">Rs {totalPrice} + taxes </span></p>
+      <p className="mt-6 text-lg font-medium">Total Price: <span className="text-green-600">Rs {totalPrice} </span></p>
     </div>
   );
 };
